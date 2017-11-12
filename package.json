@@ -1,0 +1,15 @@
+{
+  "name": "issabel-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./bin/run-backup.sh && ./node_modules/nightwatch/bin/nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^2.33.1",
+    "nightwatch": "^0.9.16"
+  }
+}
